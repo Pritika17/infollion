@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    background: #F5F4F4 0% 0% no-repeat padding-box;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-left: 28px;
+    gap: 62px;
+}
+
+.logo-head{
+    display: flex;
+    gap: 54px;
+}
+
+.logo-head .menu{
+    width: 22px;
+}
+
+.logo-head .logo{
+    width: 105px;
+}
+
+.list div{
+    display: flex;
+    gap: 159px;
+}
+
+.link-lists .list p{
+    padding-left: 24px;
+    width: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #252B3B;
+}
+
+.list div img{
+    width: 8px;
+    cursor: pointer;
+}
+
+.list ul{
+    list-style-type: none;
+    padding-left: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list ul li:nth-child(1){
+    margin-top: 17px;
+}
+
+.list ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #252B3B;
+}
+
+.margin{
+    margin-top: 39px;
+}
+
+#Value{
+    margin-bottom: 39px;
+}
+
+.list ul li button{
+    position: relative;
+    bottom: 7px;
+    width: 137px;
+    border-radius: 19px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 37px;
+    border: none;
+    background-color: #252B3B;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.list p{
+    cursor: pointer;
+}
+
+main nav{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 96px;
+    height: 5rem;
+    align-items: center;
+    justify-items: center;
+}
+
+main nav .our-expert{
+    margin-right: 100px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #252B3B;
+}
+
+main nav .search img{
+    width: 18px;
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+
+main nav .search input::placeholder{
+    color: #252B3B;
+    opacity: 1;
+}
+
+main nav .search input{
+    width: 400px;
+    padding: 16px;
+    padding-left: 29px;
+    border-radius: 25px;
+    background-color: rgb(111, 105, 105, 0.07);
+    border: none;
+}
+
+main nav .add-expert button{
+    padding: 9px;
+    background-color: #EC9324;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+main nav .filter{
+    background-color: #EC9324;
+    padding: 8px;
+    border-radius: 32px;
+    border: none;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+main nav .filter img{
+    width: 15px;
+}
+
+main nav .apps img{
+    width: 20px;
+    margin-left: 11px;
+}
+
+main nav .person img{
+    width: 20px;
+    margin-left: 13px;
+}
+
+main nav .lists-icon{
+    background-color: #EC9324;
+    padding: 8px;
+    border-radius: 32px;
+    border: none;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+main nav .name p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #252B3B;
+    margin-left: 12px;
+}
+
+main nav .down-icon img{
+    width: 8px;
+    margin-left: 25px;
+}
+
+.check{
+    width: 15px;
+}
+
+.profilephoto{
+    width: 24px;
+}
+
+.sort{
+    width: 12px;
+    margin-left: 3px;
+}
+
+table{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.names{
+    width: 250px;
+    display: flex;
+    justify-items: left;
+}
+
+.email{
+    margin-left: 200px;
+    position: relative;
+    bottom: 24px;
+    width: 210px;
+    display: flex;
+    justify-items: left;
+}
+
+.phone{
+    margin-left: 410px;
+    position: relative;
+    bottom: 42px;
+    width: 140px;
+    display: flex;
+    justify-items: left;
+}
+
+.id{
+    margin-left: 560px;
+    position: relative;
+    bottom: 62px;
+    width: 70px;
+    display: flex;
+    justify-items: left;
+}
+
+.cost{
+    margin-left: 640px;
+    position: relative;
+    bottom: 82px;
+    width: 120px;
+    display: flex;
+    justify-items: left;
+}
+
+.date{
+    margin-left: 760px;
+    position: relative;
+    bottom: 102px;
+    width: 120px;
+    display: flex;
+    justify-items: left;
+}
+
+.status{
+    margin-left: 890px;
+    position: relative;
+    bottom: 122px;
+    width: 200px;
+    display: flex;
+    justify-items: left;
+}
+
+.call{
+    margin-left: 1040px;
+    position: relative;
+    bottom: 142px;
+    width: 70px;
+    display: flex;
+    justify-items: left;
+}
+
+.projects{
+    margin-left: 1100px;
+    position: relative;
+    bottom: 160px;
+    width: 70px;
+    display: flex;
+    justify-items: left;
+}
+
+.bad{
+    margin-left: 1200px;
+    position: relative;
+    bottom: 178px;
+    width: 100px;
+    display: flex;
+    justify-items: left;
+}
+
+.rating{
+    margin-left: 1300px;
+    position: relative;
+    bottom: 198px;
+    width: 100px;
+    display: flex;
+    justify-items: left;
+}
+
+.more{
+    margin-left: 1400px;
+    position: relative;
+    bottom: 218px;
+    width: 7%;
+    display: flex;
+    justify-items: left;
+}
+
+.more img{
+    width: 14px;
+}
